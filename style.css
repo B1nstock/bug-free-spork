@@ -1,0 +1,40 @@
+
+  
+#bomb {
+width: 137px;
+height: 137px;
+position: absolute;
+animation-name: nicki ;
+animation-duration: 1.6s;
+animation-delay: 1s;
+animation-iteration-count: 7;
+background-size: contain;
+opacity: 100;
+animation-timing-function: linear;
+background-image:url(https://i.gifer.com/ZRPW.gif)
+
+}
+@keyframes nicki {
+  0%{
+    opacity: 1;
+    left: 0px;
+    top: 0px;
+    background-image: url("https://i.gifer.com/ZRPW.gif");
+ }
+ 45% {
+    background-image: url("https://i.gifer.com/ZRPW.gif");
+  }
+
+  50% {
+    top: 80vh;
+    opacity: 1;
+    background-image: url("https://i.gifer.com/ZRPW.gif")
+  70% {
+    top: 80vh;
+    opacity: 0;
+    background-image: url("https://i.gifer.com/ZRPW.gif");
+  }
+
+
+ }
+
